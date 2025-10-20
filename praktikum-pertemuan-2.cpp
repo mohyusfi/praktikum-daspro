@@ -21,7 +21,7 @@ int main()
 
     // Tipe Long Integer
     long int myLongInt = -123456789;
-    unsigned long int myUnsignedLongInt = 123456789;
+    unsigned long int myUnsignedLongInt = 123456789; 
     signed long int mySignedLongInt = -987654321;
 
     // Tipe Floating-Point (Bilangan Desimal)
@@ -35,6 +35,7 @@ int main()
     // Anda bisa mencetak nilai-nilai ini untuk melihat hasilnya
     // Contoh:
     cout << "Nilai myInt: " << myInt << endl;
+    cout << "Nilai myCharUnsign: " << myUnsignedChar << endl;
     cout << "Nilai myFloat: " << myFloat << endl;
     cout << "Nilai myBool: " << myBool << endl; // Akan mencetak 1 untuk true, 0 untuk false
 
