@@ -1,1 +1,1 @@
-jamBeli >= 7 && jamBeli <= 10
+#include <iostream>

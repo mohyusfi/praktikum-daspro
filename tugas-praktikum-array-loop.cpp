@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     // mencari nilai minimum dan maksimum dari sebuah array
-    int numbers[10];
+    int numbers[5];
     int length_numbers = size(numbers);
     int minimum, maximum;
 
@@ -20,9 +20,7 @@ int main()
 
     for (int i = 0; i < length_numbers; i++)
     {
-        // maximum
         if (numbers[i] > maximum) maximum = numbers[i];
-        // minimum
         if (numbers[i] < minimum) minimum = numbers[i]; 
     }
 
